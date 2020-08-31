@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "icons";
+    src: url("./icons.eot?938c824f6e01cdda79b194c764ab4484?#iefix") format("embedded-opentype"),
+url("./icons.woff2?938c824f6e01cdda79b194c764ab4484") format("woff2"),
+url("./icons.woff?938c824f6e01cdda79b194c764ab4484") format("woff"),
+url("./icons.ttf?938c824f6e01cdda79b194c764ab4484") format("truetype"),
+url("./icons.svg?938c824f6e01cdda79b194c764ab4484#icons") format("svg");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-compare:before {
+    content: "\f101";
+}
